@@ -1,2 +1,2 @@
 # biblioteca
-Sistema simples(Api rest) para uma biblioteca usando Java com Spring.
+Sistema simples(Api rest) para uma biblioteca de escola pública usando Java com Spring.
