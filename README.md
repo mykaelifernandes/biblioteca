@@ -3,7 +3,7 @@
 
 #### Tecnologias utilizadas
 - Java;
-- SpringBoot;;
+- SpringBoot;
 - Maven;
 - Postman (testar as requisições);
 - h2 (banco de dados em memória).
