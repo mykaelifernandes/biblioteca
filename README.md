@@ -12,3 +12,7 @@
 
 ![](https://imgur.com/3A4MAql.png)
 
+### Desenvolvimento moderno: relacional -> objeto -> json
+
+![image](C:\Users\Mykae\Downloads\tb_banco.png)
+
