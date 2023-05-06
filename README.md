@@ -14,5 +14,5 @@
 
 ### Desenvolvimento moderno: relacional -> objeto -> json
 
-![image](C:\Users\Mykae\Downloads\tb_banco.png)
+![image](https://imgur.com/olTCfTF.png)
 
