@@ -24,11 +24,11 @@ public class Usuario {
         return usuario;
     }
 
-    public void setId(Long id) {
+    public void setUsuario(Long id) {
         this.usuario = usuario;
     }
 
-    public String getNome() {
+    public String getUsuario() {
         return nome;
     }
 
