@@ -7,6 +7,14 @@
 - Maven;
 - Postman (testar as requisições);
 - h2 (banco de dados em memória).
+ 
+ ### Dependências
+  - Spring Data Jpa 
+ - Spring Web 
+ 
+```
+
+```
 
 #### Entidades relacionais
 
