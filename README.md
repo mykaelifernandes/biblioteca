@@ -1,5 +1,5 @@
 # Biblioteca
-## Sistema simples(Api rest) para uma biblioteca de escola pública usando Java com Spring.
+## Sistema(API Rest) para uma biblioteca de escola pública usando Java com Spring, que retorna os livros e usuários da biblioteca.
 
 #### Tecnologias utilizadas
 - Java;
