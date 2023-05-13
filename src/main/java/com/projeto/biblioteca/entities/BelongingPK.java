@@ -8,7 +8,7 @@ import jakarta.persistence.ManyToOne;
 @Embeddable
 public class BelongingPK {
     @ManyToOne
-    @JoinColumn(name = "game_id")
+    @JoinColumn(name = "livro_id")
     private Livro livro;
 
     @ManyToOne

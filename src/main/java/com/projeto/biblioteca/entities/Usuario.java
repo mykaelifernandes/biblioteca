@@ -9,9 +9,6 @@ public class Usuario {
     private Long usuario;
     private String nome;
     private String numero;
-    private Long livroId;
-    private String livro;
-
 
     @ManyToOne
     @JoinColumn(name = "biblioteca_id")
@@ -42,18 +39,6 @@ public class Usuario {
 
     public void setNome(String nome) {
         this.nome = nome;
-    }
-
-    public Long getIdLivro() { return livroId; }
-
-    public void setIdLivro(Long idLivro) { this.livroId = livroId; }
-
-    public String getLivro() {
-        return livro;
-    }
-
-    public void setLivro(String Livro) {
-        this.livro = livro;
     }
 
     public void setBiblioteca(Biblioteca biblioteca) {
