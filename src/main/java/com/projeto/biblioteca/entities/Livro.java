@@ -9,23 +9,24 @@ public class Livro {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String título;
+    private String titulo;
     private Integer ano;
     private String autor;
     private String genero;
     private String imgUrl;
-    private String description;
+    @Column(columnDefinition = "TEXT")
+    private String descricao;
 
     public Livro(){}
 
-    public Livro(Long id, String título, Integer ano, String autor, String genero, String imgUrl, String description) {
+    public Livro(Long id, String titulo, Integer ano, String autor, String genero, String imgUrl, String description) {
         this.id = id;
-        this.título = título;
+        this.titulo = titulo;
         this.ano = ano;
         this.autor = autor;
         this.genero = genero;
         this.imgUrl = imgUrl;
-        this.description = description;
+        this.descricao = descricao;
     }
 
     public Long getId() {
@@ -37,11 +38,11 @@ public class Livro {
     }
 
     public String getTítulo() {
-        return título;
+        return titulo;
     }
 
     public void setTítulo(String título) {
-        this.título = título;
+        this.titulo = título;
     }
 
     public Integer getAno() {
@@ -76,12 +77,12 @@ public class Livro {
         this.imgUrl = imgUrl;
     }
 
-    public String getDescription() {
-        return description;
+    public String getDescricao() {
+        return descricao;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 
     @Override
