@@ -2,15 +2,17 @@
 ## Sistema(API Rest) para uma biblioteca de escola pública usando Java com Spring, que retorna os livros e usuários da biblioteca.
 
 #### Tecnologias utilizadas
-- Java;
-- SpringBoot;
-- Maven;
-- Postman (testar as requisições);
-- h2 (banco de dados em memória).
+- Java 17
+- SpringBoot 3.0.6
+- Maven
+- Postman (testar as requisições)
+- h2 (banco de dados em memória)
  
  ### Dependências
   - Spring Data Jpa 
- - Spring Web 
+  - Spring Web
+  - H2 Database 
+  - PostgreSQL Driver 
  
 ```
 
