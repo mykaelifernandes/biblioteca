@@ -17,9 +17,10 @@ public class Livro {
     @Column(columnDefinition = "TEXT")
     private String descricao;
 
-    public Livro(){}
+    public Livro() {
+    }
 
-    public Livro(Long id, String titulo, Integer ano, String autor, String genero, String imgUrl, String description) {
+    public Livro(Long id, String titulo, Integer ano, String autor, String genero, String imgUrl, String descricao) {
         this.id = id;
         this.titulo = titulo;
         this.ano = ano;
@@ -37,12 +38,12 @@ public class Livro {
         this.id = id;
     }
 
-    public String getTítulo() {
+    public String getTitulo() {
         return titulo;
     }
 
-    public void setTítulo(String título) {
-        this.titulo = título;
+    public void setTitulo(String título) {
+        this.titulo = titulo;
     }
 
     public Integer getAno() {
@@ -99,7 +100,7 @@ public class Livro {
         if (getClass() != obj.getClass())
             return false;
         Livro other = (Livro) obj;
-        return Objects.equals(id,other.id);
+        return Objects.equals(id, other.id);
     }
 
 }

@@ -15,7 +15,7 @@ public class LivroMinDTO {
 
     public LivroMinDTO(Livro entity) {
         id = entity.getId();
-        titulo = entity.getTítulo();
+        titulo = entity.getTitulo();
         ano = entity.getAno();
         imgUrl = entity.getImgUrl();
         descricao = entity.getDescricao();

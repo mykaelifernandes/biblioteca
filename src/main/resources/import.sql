@@ -6,10 +6,10 @@ INSERT INTO tb_usuario(biblioteca_id, usuario, nome, numero) VALUES (2, 2, 'Patr
 INSERT INTO tb_usuario(biblioteca_id, usuario, nome, numero) VALUES (1, 3, 'Gilberto', '7475-7858');
 INSERT INTO tb_usuario(biblioteca_id, usuario, nome, numero) VALUES (1, 4, 'Carlos', '3546-7553');
 
-INSERT INTO tb_livro_list (name) VALUES ('Romance');
-INSERT INTO tb_livro_list (name) VALUES ('Auto-ajuda');
-INSERT INTO tb_livro_list (name) VALUES ('Biografia');
-INSERT INTO tb_livro_list (name) VALUES ('Literatura Cristã');
+INSERT INTO tb_livro_list (nome) VALUES ('Romance');
+INSERT INTO tb_livro_list (nome) VALUES ('Auto-ajuda');
+INSERT INTO tb_livro_list (nome) VALUES ('Biografia');
+INSERT INTO tb_livro_list (nome) VALUES ('Literatura Cristã');
 
 INSERT INTO tb_livro (id, titulo, ano, autor, genero, img_url, descricao) VALUES (1, 'A culpa é das estrelas', 2012, 'John Green', 'Romance', 'https://raw.githubusercontent.com/mykaelifernandes/java/main/resources/1.png', '“A culpa é das estrelas”, de John Green, é um dos melhores livros de romance, com enredo dramático sobre jovens lutando contra um câncer, enquanto nos preenchem de ensinamentos sobre a vida.');
 INSERT INTO tb_livro (id, titulo, ano, autor, genero, img_url, descricao) VALUES (2, 'A cabana', 2007, 'William Paul Young', 'Romance', 'https://raw.githubusercontent.com/mykaelifernandes/java/main/resources/2.png','Missy, a filha mais nova, foi raptada e, de acordo com as provas encontradas numa cabana abandonada, brutalmente assassinada. Quatro anos mais tarde, Mack, mergulhado numa depressão da qual nunca recuperou, recebe um bilhete, aparentemente escrito por Deus, convidando-o a voltar à malograda cabana.');

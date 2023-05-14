@@ -8,14 +8,14 @@ public class LivroList {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String name;
+    private String nome;
 
 
     public LivroList(){}
 
-    public LivroList(Long id, String name){
+    public LivroList(Long id, String nome){
         this.id = id;
-        this.name = name;
+        this.nome = nome;
     }
 
     public Long getId() {
@@ -26,12 +26,12 @@ public class LivroList {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getNome() {
+        return nome;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     @Override
