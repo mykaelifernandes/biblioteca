@@ -1,7 +1,7 @@
 package com.projeto.biblioteca.dto;
 
 import com.projeto.biblioteca.entities.Livro;
-import jakarta.persistence.Column;
+
 
 public class LivroMinDTO {
 

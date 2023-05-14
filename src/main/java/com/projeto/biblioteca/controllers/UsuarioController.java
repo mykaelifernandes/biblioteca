@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
 
 @RestController
 @RequestMapping(value = "/usuarios")
@@ -18,14 +17,13 @@ public class UsuarioController {
 
     @GetMapping
     public List<Usuario> findAll() {
-        List<Usuario> resultado = repository.findAll();
-        return resultado;
+        return repository.findAll();
+
     }
 
     @GetMapping(value = "/{id}")
     public Usuario findById(@PathVariable Long id) {
-        Usuario resultado = repository.findById(id).get();
-        return resultado;
+        return repository.findById(id).get();
     }
 
     @PostMapping

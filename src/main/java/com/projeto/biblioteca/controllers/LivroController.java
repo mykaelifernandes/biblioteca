@@ -2,7 +2,6 @@ package com.projeto.biblioteca.controllers;
 
 import com.projeto.biblioteca.dto.LivroDTO;
 import com.projeto.biblioteca.dto.LivroMinDTO;
-import com.projeto.biblioteca.entities.Livro;
 import com.projeto.biblioteca.services.LivroService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,15 +20,12 @@ public class LivroController {
 
     @GetMapping(value = "/{id}")
     public LivroDTO findById(@PathVariable Long id) {
-        LivroDTO result = livroService.findById(id);
-        return result;
+        return livroService.findById(id);
 
     }
     @GetMapping
     public List<LivroMinDTO> findAll() {
-        List<LivroMinDTO> result = livroService.findAll();
-        return result;
-
+        return livroService.findAll();
     }
 }
 
