@@ -5,18 +5,13 @@
 - Java 17
 - SpringBoot 3.0.6
 - Maven
-- Postman (testar as requisições)
-- h2 (banco de dados em memória)
+- Postman 
+- h2 
  
  ### Dependências
   - Spring Data Jpa 
   - Spring Web
   - H2 Database 
-  - PostgreSQL Driver 
- 
-```
-
-```
 
 #### Entidades relacionais
 
