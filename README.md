@@ -15,7 +15,7 @@
 
 #### Entidades relacionais
 
-![image](https://raw.githubusercontent.com/mykaelifernandes/java/main/resources/tabrelacionais.png)
+![](https://raw.githubusercontent.com/mykaelifernandes/java/main/resources/tabrelacionais.png)
 
 ### Desenvolvimento moderno: relacional -> objeto -> json
 
