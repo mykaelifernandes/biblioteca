@@ -13,10 +13,7 @@
   - Spring Web
   - H2 Database 
 
-#### Entidades relacionais
-
-
-### Desenvolvimento moderno: relacional -> objeto -> json
+### Entidades relacionais
 
 ![image](https://imgur.com/0KKmQig.png)
 
