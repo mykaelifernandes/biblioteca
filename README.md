@@ -15,9 +15,8 @@
 
 #### Entidades relacionais
 
-![image](https://imgur.com/0KKmQig.png)
 
 ### Desenvolvimento moderno: relacional -> objeto -> json
 
-![image](https://imgur.com/olTCfTF.png)
+![image](https://imgur.com/0KKmQig.png)
 
