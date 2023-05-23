@@ -1,7 +1,6 @@
 package com.projeto.biblioteca.controllers;
 
 import com.projeto.biblioteca.dto.LivroListDTO;
-import com.projeto.biblioteca.dto.LivroMinDTO;
 import com.projeto.biblioteca.services.LivroListService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
